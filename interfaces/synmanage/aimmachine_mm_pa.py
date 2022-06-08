@@ -3,7 +3,7 @@ __author__ = 'jiajun.zhao'
 
 import json
 from commons.log import loggers
-from config import newhost,ip140,user140,pwd140
+from commons.config import newhost,ip140,user140,pwd140
 from commons.fileopera import Fileopera
 from interfaces.publics.publicmethods import Publicmethods
 from interfaces.publics.taskpublicmethods import Taskpublicmethods

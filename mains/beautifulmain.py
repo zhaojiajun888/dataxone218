@@ -1,6 +1,8 @@
 # _*_ coding:utf-8 _*_
 __author__ = 'jiajun.zhao'
 
+import os,sys
+sys.path.append("D:\dataxone218")
 
 import time
 import unittest
