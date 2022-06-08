@@ -17,7 +17,7 @@ class Syncmanage_mm(unittest.TestCase):
     @classmethod
     def setUpClass(self) -> None:
         loggers.info("开始执行mysql->mysql,1对1,非多目标端，实时任务".center(60,"-"))
-        loggers.info("测试jenkins拉取代码".center(60, "-"))
+
     def test_1_quetaskname(self):
         """创建同步任务时相关查询接口"""
 
